@@ -1,5 +1,5 @@
 <x-layout>
-    <main class="container flex flex-col flex-1 h-full">
+    <main class="container flex flex-col h-full">
         <header class="mx-auto">
             <img src="/logo.svg" alt="Codebreaker" aria-label="Codebreaker" />
         </header>
