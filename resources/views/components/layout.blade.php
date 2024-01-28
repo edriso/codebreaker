@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-full">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,9 +7,9 @@
     <title>Codebreaker</title>
     {{-- icon font --}}
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-    @vite('reources/css/app.css')
+    @vite('resources/css/app.css')
 </head>
-<body>
+<body class="bg-primary text-white px-6 py-8 h-full">
     {{ $slot }}
 </body>
 </html>

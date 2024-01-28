@@ -1,7 +1,9 @@
 <x-layout>
-    <h3>Hello World!</h3>
+    <main class="container flex flex-col flex-1 h-full">
+        <header class="mx-auto">
+            <img src="/logo.svg" alt="Codebreaker" aria-label="Codebreaker" />
+        </header>
 
-    <span class="material-symbols-outlined">
-        home
-    </span>
+        <livewire:create-code />
+    </main>
 </x-layout>
