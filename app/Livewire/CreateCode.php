@@ -7,7 +7,7 @@ use Livewire\Component;
 
 class CreateCode extends Component
 {
-    public string $message = 'hello there';
+    public string $message = '';
     protected array $symbols = [
         'enable',
         'public',
