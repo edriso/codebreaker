@@ -1,4 +1,4 @@
-<div class="flex flex-col justify-between flex-1 mt-8">
+<div class="flex flex-col justify-between flex-1 gap-8 mt-8">
     <section>
         <form class="mb-8">
             <textarea
@@ -8,8 +8,10 @@
                 rows="10"></textarea>
         </form>
 
-        <x-coded-message :message="$message" />
+        <x-coded-message :message="$message" :letters="$this->letters" />
     </section>
 
-    <x-code-table />
+    @if($message)
+        <x-code-table :letters="$this->letters" />
+    @endif
 </div>
